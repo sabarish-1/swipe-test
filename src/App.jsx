@@ -90,13 +90,13 @@ export default function App() {
           </div>
           <div className="border-b m-1 mb-3"></div>
           <div className="column">
-            <div className="card">
+            <div className="card rounded">
               <Swiper
                 scrollbar={{
                   hide: false
                 }}
                 modules={[Scrollbar]}
-                className="mySwiper"
+                className="mySwiper rounded"
               >
                 <SwiperSlide>
                   {" "}
@@ -136,13 +136,13 @@ export default function App() {
           </div>
 
           <div className="column">
-            <div className="card">
+            <div className="card rounded">
               <Swiper
                 scrollbar={{
                   hide: false
                 }}
                 modules={[Scrollbar]}
-                className="mySwiper"
+                className="mySwiper rounded"
               >
                 <SwiperSlide>
                   {" "}
@@ -194,7 +194,7 @@ export default function App() {
                   <img
                     src="https://images.ctfassets.net/sa0xzxw55dr7/6DvPKSRuXGsPs6618Ypjov/11632283f2372bea3e2c544839f03b96/hypervolt-go-final-thumbnail.jpg"
                     alt="123"
-                    className="w-full h-44 object-center object-cover group-hover:opacity-75"
+                    className="w-full rounded h-44 object-center object-cover group-hover:opacity-75"
                   />
                   <div className="mt-2">
                     <h1 className="mb-1 px-2 text-sm">Lyric Massager</h1>
@@ -216,7 +216,7 @@ export default function App() {
                   <img
                     src="https://cdn.shopify.com/s/files/1/0026/5178/3237/products/minky-minky-grey-rc-2_1080x.png?v=1640931533"
                     alt="123"
-                    className="w-full h-44 object-center object-cover group-hover:opacity-75"
+                    className="w-full rounded h-44 object-center object-cover group-hover:opacity-75"
                   />
                   <div className="mt-2">
                     <h1 className="mb-1 px-2 text-sm">Lyric Massager</h1>
@@ -238,7 +238,7 @@ export default function App() {
                   <img
                     src="https://cdn.shopify.com/s/files/1/2034/5801/products/GRV.OriginalWeighted.Grey.PDP1_1800x1800.jpg"
                     alt="123"
-                    className="w-full h-44 object-center object-cover group-hover:opacity-75"
+                    className="w-full rounded h-44 object-center object-cover group-hover:opacity-75"
                   />
                   <div className="mt-2">
                     <h1 className="mb-1 px-2 text-sm">Lyric Massager</h1>
@@ -260,7 +260,7 @@ export default function App() {
                   <img
                     src="https://cdn.shopify.com/s/files/1/0026/5178/3237/products/Luxome-LAYRPillow-Lightbox_768x.png?v=1642777005"
                     alt="123"
-                    className="w-full h-44 object-center object-cover group-hover:opacity-75"
+                    className="w-full rounded h-44 object-center object-cover group-hover:opacity-75"
                   />
                   <div className="mt-2">
                     <h1 className="mb-1 px-2 text-sm">Lyric Massager</h1>
